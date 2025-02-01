@@ -40,7 +40,7 @@ app.post("/webhook", (req, res) => {
 });
 
 // Gửi tin nhắn phản hồi
-const PAGE_ACCESS_TOKEN = "your_page_access_token";
+const PAGE_ACCESS_TOKEN = "EAAeIlhdX1RoBO8g0yVX5hPCpxFmcBkVcZCHXd3fkPKEmvvZAjQgiNiLFCba7OMLDZBEVcKWe4PKZALd41IU1y7EysDHpe0REETsYzVtxOgVvQoD9hAZC4NNav1EddRrQvcnyPIIHBTbCtwshhfLxUT4kEyD6pOkni4xD6rtZBUQv4LTUlZBx3SqvsaJZAHJvRImO";
 const request = require("request");
 
 function handleMessage(senderID, receivedMessage) {
